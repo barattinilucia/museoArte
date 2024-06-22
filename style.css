@@ -1,0 +1,936 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "raleway", Arial, Helvetica, sans-serif;
+  background-color: #e5e0d8;
+}
+
+/*header*/
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #03045e;
+  font-weight: 300;
+  width: auto;
+  height: 6em;
+  padding: 1em;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+}
+
+header img {
+  width: 4em;
+  height: auto;
+  margin-right: 1em;
+}
+
+.menu {
+  color: #e5e0d8;
+  text-decoration: none;
+}
+
+header .material-symbols-outlined {
+  color: #e5e0d8;
+  font-size: 2.5em;
+  position: absolute;
+  z-index: 9999;
+  left: 8em;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 1.1em;
+  font-weight: 400;
+  color: #e5e0d8;
+  margin-right: 10%;
+  width: 20%;
+}
+
+.flexbox {
+  display: flex;
+}
+
+#hamburguesa ul li {
+  list-style: none;
+}
+
+#hamburguesa a {
+  color: white;
+  text-decoration: none;
+}
+
+#hamburguesa {
+  display: none;
+}
+
+#hamburguesa.menuinvisible {
+  display: block;
+  position: relative;
+  z-index: 999;
+  height: 6em;
+  top: 2em;
+  left: 4.5%;
+  background-color: #03045e;
+  width: 70%;
+  padding-left: 2%;
+  font-size: 115%;
+  border-radius: 0.4em;
+}
+
+/*general*/
+
+.nodisplay {
+  display: none;
+}
+
+h2 {
+  text-transform: uppercase;
+}
+
+.slide {
+  width: 100%;
+  height: 212px;
+  object-fit: cover;
+}
+
+.titulosindex {
+  color: #03045e;
+  background-color: rgba(255, 240, 226, 0.6);
+  position: relative;
+  text-align: right;
+  bottom: 32px;
+}
+
+/*index*/
+
+.imgindex {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.mapa {
+  width: 92%;
+  height: 30%;
+  margin: 4%;
+}
+
+/*footer*/
+
+h5 {
+  font-size: 1.1em;
+  font-weight: 400;
+  text-transform: uppercase;
+  width: 20%;
+}
+
+footer {
+  background-color: #03045e;
+  color: #e5e0d8;
+  text-transform: uppercase;
+  height: 10em;
+  display: flex;
+  margin-top: 2em;
+}
+
+.logomuseo {
+  width: 4em;
+  margin: 0 1em;
+}
+
+.footerimg {
+  width: 1.5em;
+  margin-right: 1em;
+}
+
+.flexboxotro {
+  align-items: center;
+}
+
+/*entradas*/
+
+.fecha-precio {
+  text-transform: uppercase;
+  margin-top: 1.9em;
+  padding-top: 1%;
+}
+
+ol {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  margin: 0 10%;
+}
+
+.paddingbotn {
+  padding-bottom: 5%;
+}
+
+.day-name {
+  background-color: lightgrey;
+}
+
+.titulo {
+  text-transform: uppercase;
+  background-color: #ab6f44;
+  color: #e5e0d8;
+}
+
+.tituloentradas {
+  text-transform: uppercase;
+}
+
+.boton2 {
+  background-color: #03045e;
+  color: #fff0e2;
+  width: 40%;
+  font-size: 80%;
+  padding: 1%;
+  border-radius: 0.5em;
+  text-decoration: none;
+}
+
+.space {
+  margin-top: 2%;
+}
+
+.contenedores {
+  justify-content: space-evenly;
+}
+
+.imgeventos {
+  width: 45%;
+}
+
+.margen {
+  margin: 2% 0%;
+  text-transform: uppercase;
+}
+
+.margen2 {
+  margin-top: 10%;
+}
+
+.margenesizq {
+  margin-left: 4%;
+}
+
+.centro {
+  justify-content: center;
+}
+
+/*tienda*/
+
+.textotienda {
+  font: 1.5em;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 2em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.filtros a {
+  font-size: 0.8em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+}
+
+.filtros {
+  justify-content: space-between;
+  align-content: center;
+  padding: 0 1em 1em 1em;
+}
+
+.productostienda {
+  flex-wrap: wrap;
+  flex-basis: 40%;
+  padding: 0 1em;
+}
+
+.contenedor {
+  width: 9.7em;
+  height: 18em;
+  background-color: #fefdf8;
+  margin: 1em 0.5em 0 0.5em;
+}
+
+.textoproducto {
+  margin: 0 0.4em;
+}
+
+.imagenproducto {
+  height: 40%;
+  object-fit: cover;
+  align-content: center;
+}
+
+.nombreobra {
+  font-weight: 600;
+  font-size: 1em;
+  color: #03045e;
+  padding: 0.5em 0;
+}
+
+.categoria {
+  font-size: 0.8em;
+  font-weight: 400;
+  color: gray;
+}
+
+.precio {
+  font-size: 1em;
+  font-weight: 400;
+  color: black;
+}
+
+.info {
+  font-size: 0.8em;
+  font-weight: 400;
+  color: black;
+  align-self: flex-end;
+  padding-top: 1em;
+  text-align: right;
+}
+
+/*exhibiciones*/
+
+.imgex {
+  width: 100%;
+}
+
+.margentexto {
+  padding: 4%;
+}
+
+.margenes {
+  margin: 4%;
+}
+
+#prevButton {
+  color: #e5e0d8;
+  cursor: pointer;
+  position: absolute;
+  bottom: 40%;
+  width: auto;
+  padding: 16px;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+#nextButton {
+  color: #e5e0d8;
+  cursor: pointer;
+  position: absolute;
+  bottom: 40%;
+  width: auto;
+  margin-left: 87%;
+  padding: 16px;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.slider {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  height: 215px;
+}
+
+.artexhibiciones {
+  margin-top: 10%;
+  background-color: #fefdf8;
+}
+
+.grecia {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr)
+}
+
+.boton {
+  background-color: #03045e;
+  color: #fff0e2;
+  margin: 2%;
+  width: 60%;
+  padding: 1%;
+  border-radius: 0.5em;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+}
+
+.contenedorbotn {
+  flex-direction: column;
+  align-items: center;
+}
+
+#actuales {
+  justify-content: center;
+  margin-top: 15%;
+  margin-bottom: 15%;
+}
+
+#pasadas {
+  justify-content: center;
+  margin-top: 15%;
+  margin-bottom: 15%;
+}
+
+/*visitas*/
+.margindescrip {
+  margin: 2% 4% 0 4%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.visitastitulos {
+  text-decoration-line: underline;
+  margin-left: 4%;
+}
+
+.margintext {
+  margin-left: 7%;
+  margin-top: 4%;
+}
+
+.recuadrodias {
+  background-color: #ab6f44;
+  color: #fff0e2;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 60px;
+  margin: 4% 5%;
+  padding: 1%;
+  text-transform: uppercase;
+  list-style: none;
+  font-size: 20px;
+}
+
+.imagenesguias {
+  width: 80%;
+  height: 10%;
+  object-fit: contain;
+  margin: 2% 8% 2% 10%;
+  align-items: center;
+}
+
+.recuadroedad {
+  background-color: #ab6f44;
+  color: #fff0e2;
+  margin: 1% 5% 4% 5%;
+  width: 30%;
+  text-align: center;
+  padding: 1%;
+}
+
+.infodelaguia {
+  background-color: #03045e;
+  color: #fff0e2;
+  margin: 5% 2%;
+  width: 70%;
+  text-align: center;
+  padding: 1%;
+}
+
+.flexboxdetalle {
+  width: 90%;
+  justify-content: flex-start;
+  align-items: baseline;
+  margin-left: 4%;
+}
+
+.listadehorarios {
+  margin-bottom: 4%;
+}
+
+.entradas {
+  background-color: #03045e;
+  color: #fff0e2;
+  font-size: 1em;
+  text-align: center;
+  padding: 2%;
+  border-radius: 0.5em;
+  text-decoration: none;
+  display: block;
+}
+
+.imgindividual {
+  object-fit: contain;
+  align-items: center;
+  margin-right: 8%;
+}
+
+#iconofamilia {
+  color: #171616;
+}
+
+#iconoescolar {
+  color: #171616;
+}
+
+/*eventos y talleres*/
+.nochedelosmuseos {
+  width: 95%;
+  height: 20%;
+  margin: 6% 4% 2% 4%;
+}
+
+.nochedelosmuseos2 {
+  width: 92%;
+  height: 10%;
+  padding-bottom: 10%;
+  margin: 0 0 1% 4%;
+}
+
+.gridmuseo {
+  display: grid;
+  margin: 1% 4% 6% 4%;;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.gridimg1 {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.gridimg2 {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+
+.gridimg3 {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+.gridimg4 {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+.imggrid {
+  margin-top: 2%;
+  height: 70%;
+  object-fit: cover;
+}
+
+.titulostaller {
+  background-color: #fff0e2;
+  color: #ab6f44;
+  width: 100%;
+  margin: 10% 0;
+  text-align: center;
+  padding: 1%;
+  font-size: 1em;
+}
+
+.textotaller {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.horarionochemuseo {
+  background-color: #ab6f44;
+  color: #fff0e2;
+  width: 60%;
+  text-align: center;
+  margin: 4% 0 4% 20%;
+  padding: 1%;
+}
+
+.uppercase {
+  margin-top: 1%;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.tallertitulo {
+  background-color: #ab6f44;
+  color: #fff0e2;
+  width: 60%;
+  margin: 4%;
+  margin-top: 4%;
+  text-align: center;
+}
+
+.centrar {
+  text-align: center;
+}
+
+.imgtalleres {
+  width: 40%;
+  height: 40%;
+  margin: 4%;
+  align-items: center;
+}
+
+.alineacionhorario {
+  margin: 9%;
+  margin-top: 1%;
+}
+
+@media (min-width: 1280px) {
+  #hamburguesa {
+    display: block;
+    width: 800px;
+    position: relative;
+    top: 25%;
+    font-size: 24px;
+  }
+
+  #hamburguesa ul {
+    display: flex;
+  }
+
+  #hamburguesa li {
+    padding: 1%;
+  }
+
+  .menuhamburguesa {
+    display: none;
+  }
+
+  nav {
+    display: block;
+    justify-content: space-between;
+  }
+
+  .boton {
+    width: 20%;
+    font-size: 24px;
+    border-radius: 1em;
+  }
+
+  .marginweb {
+    margin: 5% 10%;
+  }
+
+  .flexboxweb{
+    display:flex;
+  }
+
+  .colortitulos {
+    font-size: 35px;
+    position: relative;
+    right: 2%;
+  }
+
+  h3 {
+    font-size: 34px;
+  }
+
+  .titulosweb {
+    font-size: 55px;
+    bottom: 68px;
+  }
+
+  .divredes {
+    position: absolute;
+    right: 3em;
+  }
+
+  header .material-symbols-outlined {
+    display: none;
+  }
+
+  p {
+    font-size: 22px;
+  }
+
+  /*index*/
+
+  .indexweb {
+    width: 100%;
+    height: 100%;
+  }
+
+  li {
+    font-size: 20px;
+  }
+
+  .indweb {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 1%;
+    gap: 2% 2%;
+  }
+
+  .divmapa {
+    height: 800px;
+  }
+
+  .mapa {
+    height: 70%;
+  }
+
+  .nodisplay {
+    display: block;
+  }
+
+  .horariosweb {
+    font-size: 24px;
+    justify-content: space-evenly;
+  }
+
+  /*footer*/
+
+  h5 {
+    font-size: 24px;
+  }
+
+  /*exhibiciones*/
+
+  .slider {
+    max-width: 100%;
+    height: 500px;
+  }
+
+  .slide {
+    width: 100%;
+    height: 496px;
+  }
+
+  #prevButton:hover,
+  #nextButton:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  #nextButton {
+    right: 0;
+  }
+
+  .contenedorbotn {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .artexhibiciones {
+    height: 450px;
+    overflow: hidden
+  }
+
+  .imgexweb {
+    width: 500px;
+    object-fit: cover;
+    height: 100%;
+  }
+
+  #actuales {
+    font-size: 50px;
+  }
+
+  #pasadas {
+    font-size: 50px;
+  }
+
+  .grecia {
+    flex: 0 0 450px;
+  }
+
+  /*entradas*/
+    .margenweb{
+    margin: 2% 0%;
+    text-transform: uppercase;
+  }
+
+  .boton2 {
+    font-size: 20px;
+    border-radius: 1em;
+  }
+  
+  .imgindex {
+    height: 400px;
+  }
+
+  .indweb2 {
+    align-items: center;
+  }
+
+  .column {
+    flex-direction: column;
+  }
+
+  .imgexweb2 {
+    width: 50%;
+  }
+
+  .botonweb {
+    width: 60%;
+  }
+
+  .titulo {
+    text-align: center;
+  }
+
+  .reverse {
+    flex-direction: row-reverse;
+  }
+
+  .grande {
+    width: 15%;
+    height: 2%;
+    font-size: 16px;
+    padding: 0.5%;
+    margin-top:2.5%;
+  }
+
+  .margenesizqweb {
+    margin-left: 4%;
+  }
+
+  .botoncupo{
+    font-size: 22px;
+    display:block;
+    width: 50%;
+    text-align: center;
+    margin: 20px auto;
+  }
+  
+  .space{
+    width:30%;
+  }
+
+  .imgextalleres{
+    height: 450px;
+    object-fit: cover;
+  }
+
+  /*eventos y talleres*/
+  .agrupar {
+    font-size: 24px;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .entradas {
+    width: 96%; 
+    position: relative;
+    margin: 2%;
+    border-radius: 1em;
+  }
+  
+  .entradas2 {
+    left: 20%;
+    width: 50%;
+  }
+
+  .titulostaller {
+    margin: 2% 0 1% 0;
+    font-size: 30px;
+  }
+
+  .nochedelosmuseos2{
+    margin-bottom: 2%;
+    height: 20%;
+    width: 80%;
+    align-items: center;
+    margin-left: 10%;
+  }
+  
+  .marginttaller {
+    margin-top: 1%;
+  }
+
+  .textotaller {
+    text-align: start;
+    left: 4em;
+    margin-top: 5%;
+  }
+  
+  .margenestexto{
+    margin-top: 2%;
+    margin-left: 8%;
+  }
+  
+  .imgtalleres {
+    width: 20%;
+    height: 50%;
+    margin-left: 10%;
+  }
+
+  /*visitas*/
+   .margindescrip {
+    margin-left: 4%;
+    margin-top: 2%;
+    font-size: 30px;
+  }
+
+  .infodelaguia {
+    text-align: start;
+  }
+  
+  .imagenesguias {
+    width: 600px;
+    height: 600px;
+    object-fit: cover;
+    margin: 0;
+  }
+
+  .imagenesguiasind {
+    width: 50%;
+    height: 70%;
+    object-fit: contain;
+    margin: 2% 1% 4% 4%;
+  }
+
+  .flexboxdetalle {
+    font-size: 30px;
+  }
+
+  .iconos {
+    color: black;
+    font-size: 60px;
+  }
+
+  .recuadrodias {
+    font-size: 45px;
+    width:100%;
+    margin: 4% 0%;
+  }
+
+  .diasactividades {
+    height: 60%;
+    padding: 0 10%;
+    font-size: 30px;
+  }
+  
+  .recuadroedad {
+    width: 40%;
+  }
+  
+  /*tienda*/
+  .productostienda {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 50% 50%;
+    grid-column: 2/6;
+  }
+
+  .imagenproducto {
+    height: 60%;
+  }
+
+  .contenedor {
+    width: auto;
+    height: 20em;
+  }
+}
