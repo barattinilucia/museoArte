@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Tienda - Museo de Arte</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+
+<body>
+  <header>
+    <div class="flexbox">
+      <a href="index.html"><img src="images/index/logo.svg" alt="logo"> </a>
+      <h1> museo de arte </h1>
+    </div>
+    <span class="material-symbols-outlined menuhamburguesa">menu</span>
+    <nav id="hamburguesa">
+      <ul>
+        <li><a href=exhibiciones.html>Exhibiciones</a></li>
+        <li><a href=eventosytalleres.html>Eventos y talleres</a></li>
+        <li><a href=visitas.html>Visitas</a></li>
+        <li><a href=entradas.html>Entradas</a></li>
+        <li><a href=tienda.html>Tienda</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section>
+        <div class="slider">
+          <div>
+            <img class="slide" src="images/tienda/imagen12.jpg" alt="Imagen de la tienda">
+            <img class="slide" src="images/tienda/imagen13.jpg" alt="Imagen de la tienda">
+            <img class="slide" src="images/tienda/imagen14.jpg" alt="Imagen de la tienda">
+          </div>
+          <span id="prevButton" class="material-symbols-outlined"> arrow_back_ios </span>
+          <span id="nextButton" class="material-symbols-outlined"> arrow_forward_ios </span>
+        </div>
+        <h2 class="titulosindex titulosweb">tienda</h2>
+      <p class="textotienda flexbox">descubrí la variedad de productos inspirados en las únicas y mas icónicas obras de
+        arte</p>
+    </section>
+    <section class="marginweb">
+      <div class="filtros flexbox">
+        <a href="#">posters</a>
+        <a href="#">libros</a>
+        <a href="#">cuadernos</a>
+        <a href="#">accesorios</a>
+      </div>
+      <div class="productostienda contenedores flexbox">
+        <article class="contenedor">
+          <img class="imagenproducto imgex" src="images/tienda/imagen6.jpg" alt="poster1">
+          <h4 class="categoria textoproducto">Posters</h4>
+          <h3 class="nombreobra textoproducto">Terraza de Café por la Noche, Van Gogh</h3>
+          <p class="precio textoproducto">$8.000</p>
+          <a class="info flexbox textoproducto" href="#">+Info</a>
+        </article>
+        <article class="contenedor">
+          <img class="imagenproducto imgex" src="images/tienda/imagen8.png" alt="libro1">
+          <h4 class="categoria textoproducto">Libros</h4>
+          <h3 class="nombreobra textoproducto">Performance, Diana Taylor</h3>
+          <p class="precio textoproducto">$27.900</p>
+          <a class="info flexbox textoproducto" href="#">+Info</a>
+        </article>
+        <article class="contenedor">
+          <img class="imagenproducto imgex" src="images/tienda/imagen4.jpg" alt="cuaderno1">
+          <h4 class="categoria textoproducto">Cuadernos</h4>
+          <h3 class="nombreobra textoproducto">Musa de oro, Picasso</h3>
+          <p class="precio textoproducto">$12.500</p>
+          <a class="info flexbox textoproducto" href="#">+Info</a>
+        </article>
+        <article class="contenedor">
+          <img class="imagenproducto imgex" src="images/tienda/imagen7.jpg" alt="poster2">
+          <h4 class="categoria textoproducto">Posters</h4>
+          <h3 class="nombreobra textoproducto">Impresión, sol naciente, Monet</h3>
+          <p class="precio textoproducto">$6.000</p>
+          <a class="info flexbox textoproducto" href="#">+Info</a>
+        </article>
+        <article class="contenedor">
+          <img class="imagenproducto imgex" src="images/tienda/imagen10.jpg" alt="accesorio1">
+          <h4 class="categoria textoproducto">Accesorios</h4>
+          <h3 class="nombreobra textoproducto">Anillo Helecho Grande, Mai Solorzano</h3>
+          <p class="precio textoproducto">$30.500</p>
+          <a class="info flexbox textoproducto" href="#">+Info</a>
+        </article>
+        <article class="contenedor">
+          <img class="imagenproducto imgex" src="images/tienda/imagen9.jpg" alt="libro2">
+          <h4 class="categoria textoproducto">Libros</h4>
+          <h3 class="nombreobra textoproducto">Corazón Geométrica, María Luque</h3>
+          <p class="precio textoproducto">$20.000</p>
+          <a class="info flexbox textoproducto" href="#">+Info</a>
+        </article>
+        <article class="contenedor">
+          <img class="imagenproducto imgex" src="images/tienda/imagen5.jpg" alt="cuaderno2">
+          <h4 class="categoria textoproducto">Cuadernos</h4>
+          <h3 class="nombreobra textoproducto">La noche estrellada, Van Gogh</h3>
+          <p class="precio textoproducto">$15.000</p>
+          <a class="info flexbox textoproducto" href="#">+Info</a>
+        </article>
+        <article class="contenedor">
+          <img class="imagenproducto imgex" src="images/tienda/imagen11.jpg" alt="accesorio2">
+          <h4 class="categoria textoproducto">Accesorios</h4>
+          <h3 class="nombreobra textoproducto">Cabildo, Lola y Chango</h3>
+          <p class="precio textoproducto">$22.000</p>
+          <a class="info flexbox textoproducto" href="#">+Info</a>
+        </article>
+      </div>
+    </section>
+  </main>
+  <footer class="flexboxotro flexbox">
+    <div class="flexboxotro flexbox nombreylogo">
+      <img class="logomuseo" src="images/index/logo.svg" alt="logo">
+      <h5>Museo de arte</h5>
+    </div>
+    <div class="divredes">
+      <p class="centrar flexbox">¡seguinos!</p>
+      <div class="flexbox">
+        <a href="https://www.instagram.com/"> <img class="footerimg redes" src="images/index/logo-instagram.svg"
+            alt="instagram"> </a>
+        <a href="https://www.facebook.com/"> <img class="footerimg redes" src="images/index/logo-facebook.svg"
+            alt="facebook"> </a>
+        <a href="https://www.tiktok.com/"> <img class="footerimg redes" src="images/index/logo-tiktok.svg"
+            alt="tiktok"> </a>
+        <a href="https://www.youtube.com/"> <img class="footerimg redes" src="images/index/logo-youtube.svg"
+            alt="youtube"> </a>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
