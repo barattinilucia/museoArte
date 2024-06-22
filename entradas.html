@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Entradas - Museo de Arte</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"> </script>
+</head>
+
+<body>
+  <header>
+    <div class="flexbox">
+      <a href="index.html"><img src="images/index/logo.svg" alt="logo"> </a>
+      <h1> museo de arte </h1>
+    </div>
+    <span class="material-symbols-outlined menuhamburguesa">menu</span>
+    <nav id="hamburguesa">
+      <ul>
+        <li><a href=exhibiciones.html>Exhibiciones</a></li>
+        <li><a href=eventosytalleres.html>Eventos y talleres</a></li>
+        <li><a href=visitas.html>Visitas</a></li>
+        <li><a href=entradas.html>Entradas</a></li>
+        <li><a href=tienda.html>Tienda</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+<main>
+  <article>
+    <a href=entradas.html> <img class="imgindex" src="images/index/museorecep.jpg" alt="Entradas"> </a>
+    <h2 class="titulosindex titulosweb">Entradas</h2>
+  </article>
+
+  <section class="marginweb">
+    <section class="indweb2 flexboxweb">
+      <div>
+      <img class="imgex" src="images/visitas/primerimagenvisitas.jpg" alt="Imagen de visitas">
+      <h2 class="titulosindex">visitas</h2>
+      </div>
+      <div class="contenedorbotn imgex flexbox paddingbotn column"> 
+        <a class="boton botonweb" href="#visitaenfamilia">Familiares</a>
+        <a class="boton botonweb" href="#visitaescuela">Escolares</a>
+        <a class="boton botonweb" href="#visitaindividual">Individuales</a>
+      </div>
+    </section>
+
+  
+    <section class="indweb2 flexboxweb reverse">
+      <div>
+        <img class="imgex" src="images/entradas/eventosentradas.jpg" alt="Imagen de eventos">
+        <h2 class="titulosindex">eventos</h2>
+      </div>
+      <div class="contenedorbotn imgex flexbox paddingbotn column">
+        <a class="boton botonweb" href="#nochedelosmuseos">Noche De Los Museos</a>
+        <a class="boton botonweb" href="#galadeartistas">Gala De Artistas</a>
+      </div>
+    </section>
+
+    <section class="indweb2 flexboxweb">
+      <div>
+        <img class="imgex" src="images/entradas/talleresentradas.jpg" alt="Imagen de talleres">
+        <h2 class="titulosindex">talleres</h2>
+      </div>
+      <div class="contenedorbotn imgex flexbox paddingbotn column">
+        <a class="boton botonweb" href="#tallerdearcilla">Arcilla</a>
+        <a class="boton botonweb" href="#tallerdearteprehistorico">Arte Prehistórico</a>
+        <a class="boton botonweb" href="#tallerdepinturaaloleo">Pintura al Óleo</a>
+      </div>
+    </section>
+
+ 
+    <section> 
+      <h3 id="visitaenfamilia" class="margen titulo">visita en familia</h3>
+      <div class="margenesizq">
+        <h4 class="fecha-precio">precio:</h4>
+        <p>$2500 c/u, menores de 8 años gratis</p>
+        <div class="flexboxweb">
+          <h4 class="fecha-precio">fecha:</h4>
+          <form class="indexweb margenesizqweb" action="/action_page.php">
+            <label for="fecha"></label>
+            <input class="grande margenweb" type="date" id="fecha" name="fecha">
+          </form>
+        </div>
+        <div class="flexboxweb">
+          <p class="space">Cantidad de entradas:</p>
+          <form class="indexweb">
+            <input class="margenweb margenesizqweb grande" type="number"> 
+            <a class="boton2" href="#comprar">Comprar</a>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h3 id="visitaescuela" class="margen2 titulo">visita escuela</h3>
+      <div class="margenesizq flexboxweb">
+        <h4 class="fecha-precio">fecha:</h4>
+        <form class="indexweb"action="/action_page.php">
+          <label for="fecha"></label>
+          <input class="margenweb margenesizqweb grande" type="date" id="fecha" name="fecha">
+          <a class="boton2" href="#reservar">Reservar</a>
+        </form>
+      </div>
+    </section>
+
+
+    <section>
+      <h3 id="visitaindividual" class="margen2 titulo">visita individual</h3>
+      <div class="margenesizq">
+        <h4 class="fecha-precio">precio:</h4>
+        <p>$2500</p>
+        <div class="flexboxweb">
+          <h4 class="fecha-precio">fecha:</h4>
+          <form class="indexweb"action="/action_page.php">
+            <label for="fecha"></label>
+            <input class="grande margenweb margenesizqweb" type="date" id="fecha" name="fecha">
+          </form>
+        </div>
+        <div class="flexboxweb">
+          <p class="space">Cantidad de entradas:</p>
+          <form class="indexweb">
+            <input class="margenweb margenesizweb grande" type="number"> 
+            <a class="boton2" href="#comprar">Comprar</a>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h3 class="titulo margen2">eventos</h3>
+      <div>
+        <h4 id="nochedelosmuseos" class="margen centro colortitulos flexbox">Noche De Los Museos</h4>
+        <div class="contenedores flexbox">
+          <img class="imgeventos" src="images/entradas/img1.jpg" alt="noche de los museos">
+          <img class="imgeventos" src="images/entradas/img3.jpg" alt="noche de los museos">
+        </div>
+        <div class="margenesizq">
+          <h4 class="margen ">gratis</h4>
+          <h4 class="margen ">fecha:</h4>
+          <p>del 20 al 23 de Septiembre</p>
+          <h4 class="margen ">horario:</h4>
+          <p>desde las 19:00 hasta la 1:00am</p>
+          <a class="boton2 botoncupo" href="#conseguirentrada">Reservar cupo</a>
+        </div>
+      </div>
+    </section>
+  
+    <section>
+      <div>
+        <h4 id="galadeartistas" class="margen2 margen colortitulos centro flexbox">Gala De Artistas</h4>
+        <div class="contenedores flexbox">
+          <img class="imgeventos" src="images/entradas/img4.jpg" alt="gala de artistas">
+          <img class="imgeventos" src="images/entradas/img5.webp" alt="gala de artistas">
+        </div>
+        <div class="margenesizq">
+          <h4 class="margen ">gratis</h4>
+          <h4 class="margen ">fecha:</h4>
+          <p>del 11 al 15 de Octubre</p>
+          <h4 class="margen">horario:</h4>
+          <p>desde las 17:00hs hasta la 19:00hs</p>
+          <a class="boton2 botoncupo" href="#conseguirentrada">Reservar cupo</a>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="margen2">
+        <h3 class="titulo">talleres</h3>
+        <h4 id="tallerdearcilla" class="margenesizq margen colortitulos">Taller de Arcilla</h4>
+        <img class="imgex imgextalleres" src="images/entradas/tallerdearcilla.jpg" alt="taller de arcilla">
+        <div class="margenesizq">
+          <h4 class="fecha-precio">precio:</h4>
+          <p>$1500 la clase</p>
+          <h4 class="fecha-precio">horarios:</h4>
+          <p> de 17hs a 18:30hs</p>
+          <div class="flexboxweb">
+          <h4 class="fecha-precio">fecha:</h4>
+          <form class="indexweb margenesizqweb" action="/action_page.php">
+            <label for="fecha"></label>
+            <input class="grande margenweb" type="date" id="fecha" name="fecha">
+          </form>
+          </div>
+          <div class="flexboxweb">
+           <p class="space">Cantidad de inscriptos:</p>
+           <form class="indexweb">
+            <input class="margenweb margenesizqweb grande" type="number">
+            <a class="boton2" href="#conseguirentrada">Conseguir</a>
+           </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="margen2">
+        <h4 id="tallerdearteprehistorico" class="margenesizq margen colortitulos">Taller de Arte Prehistórico</h4>
+        <img class="imgex imgextalleres" src="images/entradas/prehistorico.jpg" alt="taller de arte prehistorico">
+        <div class="margenesizq">
+          <h4 class="fecha-precio">precio:</h4>
+          <p>$1500 la clase</p>
+          <h4 class="fecha-precio">horarios:</h4>
+          <p>de 18:30hs a 20hs</p>
+          <div class="flexboxweb">
+           <h4 class="fecha-precio">fecha:</h4>
+           <form class="indexweb margenesizqweb" action="/action_page.php">
+            <label for="fecha"></label>
+            <input class="grande margenweb" type="date" id="fecha" name="fecha">
+           </form>
+          </div>
+          <div class="flexboxweb">
+           <p class="space">Cantidad de inscriptos:</p>
+           <form class="indexweb">
+            <input class="margenweb margenesizqweb grande" type="number">
+            <a class="boton2" href="#conseguirentrada">Conseguir</a>
+          </form>
+        </div>
+      </div>
+    </section> 
+
+    <section>
+      <div class="margen2">
+        <h4 id="tallerdepinturaaloleo" class="margenesizq margen colortitulos">Taller de Pintura al Óleo</h4>
+        <img class="imgex imgextalleres" src="images/entradas/oleo.jpeg" alt="taller de pintura al oleo">
+        <div class="margenesizq">  
+          <h4 class="fecha-precio">precio:</h4>
+          <p>$1500 la clase</p>
+          <h4 class="fecha-precio">horarios:</h4>
+          <p>de 15hs a 16:30hs</p>
+          <div class="flexboxweb">
+           <h4 class="fecha-precio">fecha:</h4>
+           <form class="indexweb margenesizqweb" action="/action_page.php">
+             <label for="fecha"></label>
+             <input class="grande margenweb" type="date" id="fecha" name="fecha">
+           </form>
+          </div>
+          <div class="flexboxweb">
+          <p class="space">Cantidad de inscriptos:</p>
+          <form class="indexweb">
+            <input class="margenweb margenesizqweb grande" type="number">
+            <a class="boton2" href="#conseguirentrada">Conseguir</a>
+          </form>
+        </div>
+      </div>
+    </section>
+  </section>
+  
+  <footer class="flexboxotro flexbox">
+    <div class="flexboxotro flexbox nombreylogo">
+      <img class="logomuseo" src="images/index/logo.svg" alt="logo">
+      <h5>Museo de arte</h5>
+    </div>
+    <div class="divredes">
+      <p class="centrar flexbox">¡seguinos!</p>
+      <div class="flexbox">
+        <a href="https://www.instagram.com/"> <img class="footerimg redes" src="images/index/logo-instagram.svg"
+            alt="instagram"> </a>
+        <a href="https://www.facebook.com/"> <img class="footerimg redes" src="images/index/logo-facebook.svg"
+            alt="facebook"> </a>
+        <a href="https://www.tiktok.com/"> <img class="footerimg redes" src="images/index/logo-tiktok.svg"
+            alt="tiktok"> </a>
+        <a href="https://www.youtube.com/"> <img class="footerimg redes" src="images/index/logo-youtube.svg"
+            alt="youtube"> </a>
+      </div>
+    </div>
+  </footer>
+<script src="script.js"></script>
+</body>
+
+  </html>
