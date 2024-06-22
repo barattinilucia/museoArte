@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Eventos y Talleres - Museo de Arte</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+icons">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+
+<body>
+  <header>
+    <div class="flexbox">
+      <a href="index.html"><img src="images/index/logo.svg" alt="logo"> </a>
+      <h1>museo de arte</h1>
+    </div>
+    <span class="material-symbols-outlined menuhamburguesa">menu</span>
+    <nav id="hamburguesa">
+      <ul>
+        <li><a href=exhibiciones.html>Exhibiciones</a></li>
+        <li><a href=eventosytalleres.html>Eventos y talleres</a></li>
+        <li><a href=visitas.html>Visitas</a></li>
+        <li><a href=entradas.html>Entradas</a></li>
+        <li><a href=tienda.html>Tienda</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="slider">
+      <div>
+        <img class="slide" src="images/eventosytalleres/imgprincipal.jpg" alt="imagenprincipal">
+        <img class="slide" src="images/eventosytalleres/imagenslider1.JPG" alt="Imagenarcilla">
+        <img class="slide" src="images/eventosytalleres/imagenslider2.JPG" alt="Imagenpintura">
+        <img class="slide" src="images/eventosytalleres/imagenslider3.JPG" alt="Imagenenevento">
+        <img class="slide" src="images/eventosytalleres/imgslider04.jpg" alt="Imagenenevento">
+      </div>
+      <span id="prevButton" class="material-symbols-outlined"> arrow_back_ios </span>
+      <span id="nextButton" class="material-symbols-outlined"> arrow_forward_ios </span>
+    </div>
+    <h2 class="titulosindex titulosweb">eventos y talleres</h2>
+    <section class="marginweb">
+      <section>
+        <h2 class="titulostaller">noche de los museos</h2>
+        <img class="nochedelosmuseos2" src="images/eventosytalleres/lanochedelosmuseosportada.jpg" alt="museo">
+        <p class="uppercase centrar marginttaller">es una noche en la que más de 200 museos de la ciudad abren sus
+          puertas de forma libre y gratuita. te esperamos!</p>
+        <p class="horarionochemuseo">Desde las 19:00hs hasta las 2:00hs</p>
+        <div class="gridmuseo">
+          <img class="gridimg1 imggrid imgex" src="images/eventosytalleres/musicamuseo.jpg" alt="museo">
+          <img class="gridimg2 imggrid imgex" src="images/eventosytalleres/muestranochemuseo.PNG" alt="museo">
+          <img class="gridimg3 imggrid imgex" src="images/eventosytalleres/entradamuseo.jpg" alt=" entrada del museo">
+          <img class="gridimg4 imggrid imgex" src="images/eventosytalleres/amistadmuseo.jpg" alt="amigas museo">
+        </div>
+      </section>
+
+      <section>
+        <h2 class="titulostaller">gala de artistas</h2>
+        <img class="nochedelosmuseos2" src="images/eventosytalleres/galadeartistaprincipal.jpg" alt="gala de artistas">
+        <p class="uppercase margenestexto">te invitamos a nustra gala de artistas, donde los podrás ver exponiendo sus
+          obras más
+          conocidas.</p>
+        <p class="horarionochemuseo">Todos los sábados de 14:00hs a 19:00hs</p>
+        <div class="gridmuseo">
+          <img class="gridimg1 imggrid imgex" src="images/eventosytalleres/galaartista01.jpg" alt="museo">
+          <img class="gridimg2 imggrid imgex" src="images/eventosytalleres/galaartistas002.PNG" alt="museo">
+          <img class="gridimg3 imggrid imgex" src="images/eventosytalleres/galaartistas004.PNG"
+            alt=" entrada del museo">
+          <img class="gridimg4 imggrid imgex" src="images/eventosytalleres//galaartista04.jpg" alt="amigas museo">
+        </div>
+      </section>
+      <h2 class="titulostaller">nuestros talleres</h2>
+      <h3 class="colortitulos textotaller">Taller de Arcilla</h3>
+      <section>
+        <div class="agrupar flexboxweb centrar">
+          <div class="agrupar flexboxweb">
+            <img class="imgtalleres" src="images/eventosytalleres/tallerarcilla.PNG" alt="arcilla">
+            <div>
+              <ul class="diasactividades recuadrodias">
+                <li> Miércoles 07/08 15:00pm</li>
+                <li> Sábado 10/08 11:00am </li>
+              </ul>
+              <p class="margenes"> En este taller realizarás diversas actividades relacionadas con el modelado, la
+                escultura y la creación de piezas de cerámica.</p>
+              <a class="entradas margenes" href="entradas.html">Reservar entrada</a>
+            </div>
+          </div>
+        </div>
+
+        <h3 class="colortitulos textotaller">Taller de Arte Prehistórico</h3>
+        <div class="agrupar flexboxweb centrar">
+          <div class="agrupar flexboxweb">
+            <img class="imgtalleres" src="images/eventosytalleres/arteprehistorico.PNG" alt="arteprehistorico">
+            <div>
+              <ul class="diasactividades recuadrodias ">
+                <li> Jueves 08/08 17:00pm</li>
+                <li> Lunes 12/08 14:00pm</li>
+              </ul>
+              <p class="margenes"> En este taller se van a recrean técnicas y estilos de arte que hacen referencia
+                a períodos prehistóricos, como el Paleolítico, el Neolítico y la Edad del Bronce. Se enfoca en la
+                experimentación con materiales y métodos que habrían sido utilizados por nuestros antepasados.</p>
+              <a class="entradas margenes" href="entradas.html">Reservar entrada</a>
+            </div>
+          </div>
+        </div>
+
+        <h3 class="colortitulos textotaller">Taller de Pintura al Oleo</h3>
+        <div class="agrupar flexboxweb centrar">
+          <div class="agrupar flexboxweb">
+            <img class="imgtalleres" src="images/eventosytalleres/pinturaoleo.PNG" alt="pintura">
+            <div>
+              <ul class="diasactividades recuadrodias">
+                <li> Martes 16/08 17:30pm</li>
+                <li> Sábado 20/08 15:00pm</li>
+              </ul>
+              <p class="margenes">En este taller, los participantes tienen la oportunidad de explorar y desarrollar
+                habilidades en la pintura utilizando esta técnica específica.</p>
+              <a class="entradas margenes" href="entradas.html">Reservar entrada</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+  </main>
+
+  <footer class="flexboxotro flexbox">
+    <div class="flexboxotro flexbox nombreylogo">
+      <img class="logomuseo" src="images/index/logo.svg" alt="logo">
+      <h5>Museo de arte</h5>
+    </div>
+    <div class="divredes">
+      <p class="centrar flexbox">¡seguinos!</p>
+      <div class="flexbox">
+        <a href="https://www.instagram.com/"> <img class="footerimg redes" src="images/index/logo-instagram.svg"
+            alt="instagram"> </a>
+        <a href="https://www.facebook.com/"> <img class="footerimg redes" src="images/index/logo-facebook.svg"
+            alt="facebook"> </a>
+        <a href="https://www.tiktok.com/"> <img class="footerimg redes" src="images/index/logo-tiktok.svg" alt="tiktok">
+        </a>
+        <a href="https://www.youtube.com/"> <img class="footerimg redes" src="images/index/logo-youtube.svg"
+            alt="youtube"> </a>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
